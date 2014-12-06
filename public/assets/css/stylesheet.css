@@ -1,0 +1,61 @@
+
+.container{
+	background-color:#E8E8E8 !important;
+}
+.home-round {
+    border-radius: 100px;
+	height: 150px;
+	width: 150px;
+    
+    }
+
+.btn-roads{
+	background-color: red;
+	}
+.btn-complain{
+	background-color: green;
+	}
+.btn-black-spot{
+	background-color: yellow;
+	}
+.btn-register{
+	background-color: blue;
+	}
+.home-btn-text {
+	text-align: center;
+	position: relative;
+	top: -86px !important;
+	left: -50px !important;
+	color: black;
+}
+.panel-footer{text-align: right;
+}
+
+@media screen and (max-width: 300px) {
+	.home-round {
+
+	    border-radius: 50px;
+		height: 75px;
+		width: 75px;
+	    
+	    }
+	.btn-roads{
+	    background-color: red;
+		}
+    .btn-complain{
+	    background-color: green;
+	}
+	.btn-black-spot{
+		background-color: yellow;
+	}
+	.btn-register{
+		background-color: blue;
+	}
+	.home-btn-text {
+		text-align: center;
+		position: relative;
+		top: -49px !important;
+		left: -61px !important;
+		color: black;
+	}
+}
