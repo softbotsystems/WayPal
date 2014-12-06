@@ -12,3 +12,12 @@
 */
 
 Route::get('/', 'HomeController@index');
+
+Route::get('/auth', 'HomeController@getLogin');
+Route::post('/auth', 'HomeController@postLogin');
+Route::get('/authOut', 'HomeController@getLogout');
+
+Route::group(array('before' => 'auth'), function()
+{
+    Route::get('/home', 'HomeController@home');
+});
