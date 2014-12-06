@@ -7,16 +7,39 @@
 }
 
 .complain-body {
-	background-color: #999;
+	background-color: #4D7094;
 	border-radius: 8px;
 	margin: 10px;
+	min-height: 150px;
 }
 
 .complain-body-text {
 	padding-left: 10px;
+	color: #eee;
+	font-size: 14px;
+	font-family: arial;
 }
 
 .complain-user {
-	background-color: #888;
+	background-color: #4D7094;
 	border-radius: 8px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	height: 150px !important;
+	width: 150px !important;
+}
+
+.complain-btn-add {
+	margin-bottom: 15px;
+}
+
+.username-home {
+	background-color: #5C85AD;
+	border-radius: 8px;
+	top: 10px;
+	left: 580px;
+	padding: 10px;
+	color:  white;
+	margin-right: 10px;
 }

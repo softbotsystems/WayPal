@@ -3,7 +3,7 @@ body {
 	background-color:#E8E8E8 !important;
 }
 .home-round {
-    border-radius: 100px;
+    border-radius: 50px;
 	height: 300px;
 	width: 300px;
  	transition: all 0.5s;
@@ -17,16 +17,16 @@ body {
 }
 
 .btn-roads{
-	background-color: red;
+	background-color: #47A347;
 	}
 .btn-complain{
-	background-color: green;
+	background-color: #5C85AD;
 	}
 .btn-black-spot{
-	background-color: yellow;
+	background-color: #AD3333;
 	}
 .btn-register{
-	background-color: blue;
+	background-color: #85335C;
 	}
 .home-btn-text {
 	text-align: center;
@@ -40,31 +40,96 @@ body {
 .panel-footer{text-align: right;
 }
 
-@media screen and (max-width: 300px) {
+.map-frame {
+	min-height: 540px;
+	min-width: 940px;
+}
+
+@media screen and (max-width: 700px) {
 	.home-round {
 
 	    border-radius: 50px;
-		height: 75px;
-		width: 75px;
+		height: 450px;
+		width: 450px;
 	    
 	    }
 	.btn-roads{
-	    background-color: red;
+	    background-color: #47A347;
 		}
     .btn-complain{
-	    background-color: green;
+	    background-color: #5C85AD;
 	}
 	.btn-black-spot{
-		background-color: yellow;
+		background-color: #AD3333;
 	}
 	.btn-register{
-		background-color: blue;
+		background-color: #85335C;
 	}
 	.home-btn-text {
 		text-align: center;
 		position: relative;
-		top: -49px !important;
-		left: -61px !important;
-		color: black;
+		top: -85px !important;
+		left: 35px !important;
+		font-size: 14px;
+		color: white;
+		text-decoration: none !important;
+	}
+	.map-frame {
+		min-height: 540px;
+		min-width: 665px;
+	}
+
+	.username-home {
+		background-color: #5C85AD;
+		border-radius: 8px;
+		top: 10px;
+		left: 135px !important;
+		padding: 10px;
+		color:  white;
+		margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.home-round {
+
+	    border-radius: 50px;
+		height: 250px;
+		width: 250px;
+	    
+	    }
+	.btn-roads{
+	    background-color: #47A347;
+		}
+    .btn-complain{
+	    background-color: #5C85AD;
+	}
+	.btn-black-spot{
+		background-color: #AD3333;
+	}
+	.btn-register{
+		background-color: #85335C;
+	}
+	.home-btn-text {
+		text-align: center;
+		position: relative;
+		top: -85px !important;
+		left: 35px !important;
+		font-size: 14px;
+		color: white;
+		text-decoration: none !important;
+	}
+	.map-frame {
+		min-height: 540px;
+		min-width: 415px;
+	}
+	.username-home {
+		background-color: #5C85AD;
+		border-radius: 8px;
+		top: -8px;
+		left: 214px !important;
+		padding: 10px;
+		color:  white;
+		margin-right: 10px;
 	}
 }

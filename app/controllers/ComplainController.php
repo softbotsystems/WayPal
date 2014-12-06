@@ -13,7 +13,17 @@ class ComplainController extends BaseController {
 
 	public function listAll()
 	{
-		return Complain::all();
+		$complains = Complain::all();
+		$data = array();
+		foreach ($complains as $key => $complain) {
+			array_push($data, array(
+				'name' => $complain->name,
+				'description' => $complain->description,
+				'user' => ($complain->User->f_name . ' ' . $complain->User->l_name)
+				)
+			);
+		}
+		return $data;
 	}
 
 	public function create()

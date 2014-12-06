@@ -20,6 +20,28 @@ class HomeController extends BaseController {
 		return View::make('home.index', $data);
 	}
 
+	public function maps()
+	{
+		$page = 'roadmaps';
+		$tab = 'maps';
+		$data = array(
+			'page' => $page,
+			'tab' => $tab
+			);
+		return View::make('roadmaps.home', $data);
+	}
+
+	public function routes()
+	{
+		$page = 'roadmaps';
+		$tab = 'routes';
+		$data = array(
+			'page' => $page,
+			'tab' => $tab
+			);
+		return View::make('roadmaps.home', $data);
+	}
+
 	public function getLogin()
 	{
 		$page = 'login';

@@ -8,7 +8,7 @@ class Complain extends Eloquent {
 	 * @var string
 	 */
 	protected $table = 'complains';
-	protected $fillable = array('name', 'description');
+	protected $fillable = array('name', 'description', 'user_id');
 
 	public function Location()
 	{
