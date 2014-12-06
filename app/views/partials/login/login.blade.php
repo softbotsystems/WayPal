@@ -2,7 +2,7 @@
 
 @section('content')
 
-	<div class="row" ng-controller="LoginCtrl as login">
+	<div class="row" ng-controller="UserCtrl as login">
 		<div class="col-lg-2"></div>
 		<div class="col-lg-4">
 			<div class="input-group input-group-lg">

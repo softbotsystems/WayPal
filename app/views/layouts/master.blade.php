@@ -27,6 +27,11 @@
 			@include('partials.navs.top')
 			
 			<div class="row">
+				<div class="col-lg-12">
+					@if(Session::get('message'))
+						<p class="panel panel-info"> {{ Session::get('message', '') }} </p>
+					@endif
+				</div>
 				@yield('content')
 			</div>
 

@@ -1,3 +1,22 @@
 .icon {
 	margin-top: 10px !important;
 }
+
+.complains-description {
+	height: 200px !important;
+}
+
+.complain-body {
+	background-color: #999;
+	border-radius: 8px;
+	margin: 10px;
+}
+
+.complain-body-text {
+	padding-left: 10px;
+}
+
+.complain-user {
+	background-color: #888;
+	border-radius: 8px;
+}

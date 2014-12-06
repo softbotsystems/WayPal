@@ -43,7 +43,8 @@ Route::filter('auth', function()
 		}
 		else
 		{
-			return Redirect::guest('login');
+			Session::flash('message', 'You need to register first!');
+			return Redirect::guest('auth');
 		}
 	}
 });

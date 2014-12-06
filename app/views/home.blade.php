@@ -3,25 +3,34 @@
 @section('content')
 	<!-- Split button -->
 	<div class="col-lg-12">
-		<div class="col-lg-3"></div>		
-		<div class="col-lg-3">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-4">
 			<div class="home-round btn-roads"></div>
-			<div class="home-btn-text">ROADS</div>
+			<div class="">
+				<a class="home-btn-text" href="{{ URL::to('roadmaps') }}">ROADMAPS</a>
+			</div>
 		</div>		
-		<div class="col-lg-3"></div>			
-		<div class="col-lg-3">
+		<div class="col-lg-2"></div>			
+		<div class="col-lg-4">
 			<div class="home-round btn-complain"></div>
-		   <div class="home-btn-text">COMPLAIN</div>
-		</div>		
-		<div class="col-lg-3"></div>			
-		<div class="col-lg-3">
+		   <div class="">
+		   		<a class="home-btn-text" href=" {{ URL::to('complains') }} ">COMPLAINS</a>
+		   </div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="col-lg-1"></div>
+		<div class="col-lg-4">
 			<div class="home-round btn-black-spot"></div>
-		    <div class="home-btn-text">BLACK SPOT</div>
+		    <div class="">
+		    	<a class="home-btn-text" href=" {{ URL::to('maps') }} ">LOCATIONS</a>
+		    </div>
 		 </div>		 
-		<div class="col-lg-3"></div>		 	
-		 <div class="col-lg-3">
+		<div class="col-lg-2"></div>		 	
+		 <div class="col-lg-4">
 		 	<div class="home-round btn-register"></div>
-		    <div class="home-btn-text">REGISTER</div>
+		    <div class="">
+		    	<a class="home-btn-text" href=" {{ URL::to('register') }} ">REGISTER</a>
+		    </div>
 		 </div>		 
 	 </div>
 

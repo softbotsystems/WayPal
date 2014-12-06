@@ -1,13 +1,20 @@
 
-.container{
+body {
 	background-color:#E8E8E8 !important;
 }
 .home-round {
     border-radius: 100px;
-	height: 150px;
-	width: 150px;
-    
-    }
+	height: 300px;
+	width: 300px;
+ 	transition: all 0.5s;
+}
+
+.home-round:hover {
+	border-radius: 120px;
+	height: 320px;
+	width: 320px;
+	cursor: pointer;	
+}
 
 .btn-roads{
 	background-color: red;
@@ -24,9 +31,11 @@
 .home-btn-text {
 	text-align: center;
 	position: relative;
-	top: -86px !important;
-	left: -50px !important;
-	color: black;
+	top: -160px !important;
+	left: 70px !important;
+	font-size: 30px;
+	color: white;
+	text-decoration: none !important;
 }
 .panel-footer{text-align: right;
 }
